@@ -33,7 +33,7 @@
             </inputs>
 	    <execute>
 		<![CDATA[
-			apptoken=(apptoken==null) ? '':apptoken;
+			apptoken=(apptoken==null) ? '':apptoken; 
 			var x = <qdbapi><udata>mydata</udata><ticket>{ticket}</ticket><apptoken>{apptoken}</apptoken></qdbapi>; 
 			for (var key in field) {
 			  var value = field[key];
